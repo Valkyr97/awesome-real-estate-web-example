@@ -1,0 +1,1 @@
+{"ast":null,"code":"export default async function handler({\n  method,\n  body\n}, res) {\n  await res.status(200).json({\n    user: \"Ada Lovelace\"\n  });\n\n  if (method === \"POST\") {\n    const obj = await JSON.parse(body);\n  }\n}","map":null,"metadata":{},"sourceType":"module"}
