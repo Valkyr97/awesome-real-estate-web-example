@@ -14,7 +14,7 @@ const Form = () => {
   const radioValues = ["Video Chat", "Presencial"];
 
   const regisAppointment = async (e) => {
-    // e.preventDefault();
+    e.preventDefault();
 
     const res = await fetch("/api/register", {
       body: JSON.stringify({
