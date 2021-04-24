@@ -1,11 +1,5 @@
 {
   "/_app": "pages/_app.js",
-  "/api/register": "pages/api/register.js",
-  "/catalog": "pages/catalog.html",
-  "/form": "pages/form.html",
-  "/houses/[id]": "pages/houses/[id].js",
-  "/": "pages/index.html",
   "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js",
-  "/404": "pages/404.html"
+  "/_document": "pages/_document.js"
 }

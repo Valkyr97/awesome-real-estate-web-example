@@ -1,2 +1,11 @@
+# Modules
 node_modules
+
+# Production
 .next
+
+# tests
+requests
+
+# My settings
+.vscode
